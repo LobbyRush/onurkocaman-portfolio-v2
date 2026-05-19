@@ -71,14 +71,7 @@ const Header: React.FC = () => {
         )}
 
         <div className="flex items-center gap-3">
-          {!isAdmin && (
-            <Link
-              to="/admin"
-              className="hidden md:inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-purple-600 to-blue-600 text-white text-sm font-semibold hover:from-purple-500 hover:to-blue-500 hover:scale-105 transition-all duration-200 shadow-lg shadow-purple-500/25"
-            >
-              Admin
-            </Link>
-          )}
+         
           {!isAdmin && (
             <button
               className="md:hidden text-gray-400 hover:text-white transition-colors duration-200 p-1"
