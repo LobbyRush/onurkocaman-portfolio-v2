@@ -106,13 +106,7 @@ const Header: React.FC = () => {
                   {link.label}
                 </button>
               ))}
-              <Link
-                to="/admin"
-                onClick={() => setMobileOpen(false)}
-                className="mt-3 inline-flex items-center justify-center px-5 py-2.5 rounded-full bg-gradient-to-r from-purple-600 to-blue-600 text-white text-sm font-semibold"
-              >
-                Admin Panel
-              </Link>
+              
             </nav>
           </motion.div>
         )}
