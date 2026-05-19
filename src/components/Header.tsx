@@ -51,7 +51,7 @@ const Header: React.FC = () => {
             <Zap size={16} className="text-white" />
           </div>
           <span className="font-heading text-xl font-bold text-white tracking-tight">
-            Onur<span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400">.</span>
+            OnurK<span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400">.</span>
           </span>
         </Link>
 
